@@ -1,10 +1,10 @@
-function greet () {
-    console.log ('Hello');
+function greet() {
+  console.log("Hello");
 }
 
-greet ()
+greet();
 
-module.exports = greet
+module.exports = greet;
 
 // O node é chamado dentro do terminal, verificar a versão, preferencialmente de 24 em diante
 // códivo do terminal: node --version
@@ -12,5 +12,6 @@ module.exports = greet
 // todo arquivo que exporta qq coisa é chamado de módulo!!!!!!
 // um conjunto de módulos nós chamamos de pacotes
 // um conjunto de pacotes chamamos de biblioteca
-// um conjunto de biblioteca chamamos de 
+// um conjunto de biblioteca chamamos de
 // framework é diferente de biblioteca. Frameqork é a base de construção, ele é maior que seu sistema
+// obs
