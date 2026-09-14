@@ -1,3 +1,5 @@
-const greet = require ('./index');
+const greet = require("./index");
 
-greet ();
+greet();
+
+///
