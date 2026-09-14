@@ -1,5 +1,3 @@
-
-
 // Este modulo é do proprio node, motivo pelo qual digitamos da forma como está acima.
 //-------------------------------------------
 // function handle () {
@@ -12,12 +10,18 @@
 // outra forma de escrever as linhas anteriores: http.create.Server(() => console.log('hello')).listen(3000)
 //---------------------------------------------
 
-const http = require('node:http');
+const http = require("node:http");
 
-http.createServer((request, response) => {
-    response.writeHead(200, {'content-type':'application/json'});
-    response.end(JSON.stringify({
-    name: 'Alexandre',
-    email: 'alexandretevesat@gmail.com'
-    }));
-}).listen(3000);
+http
+  .createServer((request, response) => {
+    response.writeHead(200, { "content-type": "application/json" });
+    response.end(
+      JSON.stringify({
+        name: "Alexandre",
+        email: "alexandretevesat@gmail.com",
+      }),
+    );
+  })
+  .listen(3000);
+
+///
