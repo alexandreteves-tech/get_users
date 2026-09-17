@@ -10,7 +10,7 @@
 // outra forma de escrever as linhas anteriores: http.create.Server(() => console.log('hello')).listen(3000)
 //---------------------------------------------
 
-const http = require("node:http");
+const http = require("node:http");  
 
 http
   .createServer((request, response) => {
